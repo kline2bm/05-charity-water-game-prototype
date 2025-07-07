@@ -171,6 +171,7 @@ function startJerryCanFollow() {
 // Function to hide the Jerry Can
 function stopJerryCanFollow() {
   jerryCan.style.display = 'none';
+  jerryCan.classList.remove('shielded');
   gameStarted = false;
 }
 
